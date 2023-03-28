@@ -111,8 +111,6 @@ Body params:
 
 -   `configGroups`: list of service groups to create. Each one adheres to the service group Model. (when
     `/iot/configGroups` route is used).
--   `services`: list of service groups to create. Each one adheres to the service group Model. (when `/iot/services`
-    route is used).
 
 E.g.:
 
@@ -142,6 +140,9 @@ E.g.:
 ```
 
 OR
+
+-   `services`: list of service groups to create. Each one adheres to the service group Model. (when `/iot/services`
+    route is used).
 
 ```json
 {
